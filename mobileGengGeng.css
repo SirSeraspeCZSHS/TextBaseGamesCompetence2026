@@ -40,3 +40,10 @@ button, input, select {
     background: green;
     width: 100%;
 }
+
+.weapon-img { cursor: pointer; width: 80px; height: 80px; margin: 4px; border: 2px solid transparent; border-radius: 6px; }
+.weapon-selected { border-color: #0078d4; box-shadow: 0 0 6px rgba(0,120,212,0.3); }
+
+.attack-icon { width: 80px; height: 80px; display: inline-block; vertical-align: middle; }
+button#player1-attack, button#player2-attack { background: transparent; border: none; padding: 6px; }
+button#player1-attack[disabled], button#player2-attack[disabled] { opacity: 0.6; }
